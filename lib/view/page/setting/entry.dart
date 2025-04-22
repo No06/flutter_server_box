@@ -135,7 +135,7 @@ final class _AppSettingsPageState extends State<AppSettingsPage> {
 
         /// Fullscreen Mode is designed for old mobile phone which can be
         /// used as a status screen.
-        if (isDesktop) [CenterGreyTitle(l10n.fullScreen), _buildFullScreen()],
+        if (isMobile) [CenterGreyTitle(l10n.fullScreen), _buildFullScreen()],
       ],
     );
   }
